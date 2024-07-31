@@ -1,0 +1,101 @@
+body {
+    background-color: #000000;
+    color: #f0a818;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #11254d;
+}
+
+.logo img {
+    width: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f0a818;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.products-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.products-table td {
+    padding: 10px;
+    border: 2px solid #11254d;
+    vertical-align: top;
+}
+
+.products-table img {
+    width: 150px;
+    height: auto;
+    border: 2px solid #11254d;
+}
+
+.products-table p {
+    margin: 10px 0 0;
+    color: #ffffff;
+}
+
+.video-section {
+    margin: 40px 0;
+}
+
+.video-section video {
+    width: 80%;
+    max-width: 600px;
+    border: 2px solid #181848;
+}
+
+.contact-section {
+    text-align: center;
+    padding-bottom: 5px;
+    background-color: #11254d;
+    color: #f0a818;
+    border-top: 2px solid #181848;
+}
+
+.contact-section h2 {
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    margin: 10px 0;
+}
+
+.contact-section a {
+    color: #f0a818;
+    text-decoration: none;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
+}
